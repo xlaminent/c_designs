@@ -1,0 +1,99 @@
+.tabs {
+    margin: 40px 0 20px 0;
+
+    &__nav {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        text-align: left;
+        padding: 20px 16px;
+        background-color: #fcf5f0;
+        border-bottom: 1px solid $warm-white;
+        
+        @media (max-width: $lg-devices) {
+            padding: 16px 10px;
+        }
+
+        @media (max-width: $sm-devices) {
+            display: block;
+            padding: 4px 16px;
+        }
+
+        &__li {
+            display: inline-block;
+            cursor: context-menu;
+            font-size: 19px;
+            letter-spacing: 1px;
+            font-family: $heading-font;
+            word-spacing: 3px;
+            border-bottom: 2px solid transparent;
+            margin-right: 130px;
+
+            &:nth-child(4) {
+                margin-right: 0;
+            }
+
+            @media (max-width: 1350px) {
+                font-size: 18px;
+                margin-right: 100px;
+            }
+
+            @media (max-width: $lg-devices) {
+                font-size: 16px;
+                word-spacing: 1px;
+                margin-right: 80px;
+                letter-spacing: 0;
+            }
+
+            @media (max-width: $md-devices) {
+                font-size: 16px;
+                margin-right: 20px;
+                word-break: inherit;
+            }
+
+            @media (max-width: $sm-devices) {
+                display: block;
+                margin: 10px 0;
+
+                &:hover {
+                    border-bottom: 2px solid $light-teal;
+                }
+            }
+
+            &:hover {
+                color: $teal;
+            }
+
+            &.active {
+                border-bottom: 2px solid $light-teal;
+                color: $teal;
+                position: relative;
+                font-weight: 500;
+
+                &:hover {
+                    color: $light-teal;
+                    border-bottom: 2px dotted $light-teal;
+                }
+
+                @media (max-width: $md-devices) {
+                    border: none;
+                }
+            }
+        }
+    }
+
+    &__content {
+        text-align: left;
+        padding: 26px 16px;
+        
+        @media (max-width: $lg-devices) {
+            padding: 16px 0;
+        }
+
+        h2 {
+            font-size: 17px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+}

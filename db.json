@@ -1,0 +1,209 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "ceramic",
+      "image": "pexels-ylanite-koppens-1445419.jpg",
+      "alt": "two white pots",
+      "name": "Still",
+      "price": 94.95,
+      "type": "porcelain",
+      "tagline": "Locally sourced materials",
+      "skus": [
+        {
+          "sku": "7",
+          "color": "white"
+        },
+        {
+          "sku": "8",
+          "color": "sand"
+        }
+      ],
+      "description": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis luctus ipsum, sed tristique elit pellentesque ut.",
+      "long__description": "This is a long description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non aliquet nibh. Morbi eleifend quam libero, vitae venenatis odio rutrum vel. Aenean euismod pharetra ex, et luctus ligula ornare eu. "
+    },
+    {
+      "id": 2,
+      "category": "ceramic",
+      "image": "pexels-ylanite-koppens-796620.jpg",
+      "alt": "two white pots",
+      "name": "LuUpes Highrise, 2",
+      "type": "porcelain",
+      "tagline": "Traditional piece",
+      "price": 78.99,
+      "skus": [
+        {
+          "sku": "12",
+          "color": "white"
+        },
+        {
+          "sku": "13",
+          "color": "pearl"
+        }
+      ],
+      "description": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis luctus ipsum, sed tristique elit pellentesque ut.",
+      "long__description": "This is a long description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non aliquet nibh. Morbi eleifend quam libero, vitae venenatis odio rutrum vel. Aenean euismod pharetra ex, et luctus ligula ornare eu. "
+    },
+    {
+      "id": 3,
+      "category": "ceramic",
+      "image": "pexels-ylanite-koppens-776656.jpg",
+      "alt": "three white pots",
+      "name": "LuUpes Highrise, 3",
+      "type": "stoneware",
+      "tagline": "Artisanal design",
+      "price": 145.95,
+      "skus": [
+        {
+          "sku": "31",
+          "color": "white"
+        },
+        {
+          "sku": "38",
+          "color": "pearl"
+        },
+        {
+          "sku": "39",
+          "color": "sand"
+        }
+      ],
+      "description": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis luctus ipsum, sed tristique elit pellentesque ut.",
+      "long__description": "This is a long description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non aliquet nibh. Morbi eleifend quam libero, vitae venenatis odio rutrum vel. Aenean euismod pharetra ex, et luctus ligula ornare eu. "
+    },
+    {
+      "id": 4,
+      "category": "ceramic",
+      "image": "pexels-dina-nasyrova-3832098.jpg",
+      "alt": "one orange pots",
+      "name": "Terracotta Rey",
+      "type": "earthenware",
+      "tagline": "Quality handcraft",
+      "price": 135.95,
+      "skus": [
+        {
+          "sku": "47",
+          "color": "sand"
+        },
+        {
+          "sku": "48",
+          "color": "sun"
+        },
+        {
+          "sku": "49",
+          "color": "lava"
+        }
+      ],
+      "description": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mollis luctus ipsum, sed tristique elit pellentesque ut.",
+      "long__description": "This is a long description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non aliquet nibh. Morbi eleifend quam libero, vitae venenatis odio rutrum vel. Aenean euismod pharetra ex, et luctus ligula ornare eu. "
+    }
+  ],
+  "order": [
+    {
+      "name": "Tester",
+      "number": "542352354353",
+      "email": "testuser@testuser.com",
+      "address": "testaddress",
+      "city": "testcity",
+      "country": "United Kingdom",
+      "card": "534534534543",
+      "security": "342",
+      "expiration": "2021",
+      "products": [
+        {
+          "id": "4",
+          "sku": "49",
+          "quantity": 5,
+          "image": "pexels-dina-nasyrova-3832098.jpg",
+          "name": "Terracotta Rey",
+          "price": 135.95,
+          "alt": "one orange pots"
+        },
+        {
+          "id": "3",
+          "sku": "38",
+          "quantity": 5,
+          "image": "pexels-ylanite-koppens-776656.jpg",
+          "name": "LuUpes Highrise, 3",
+          "price": 145.95,
+          "alt": "three white pots"
+        }
+      ],
+      "buyerId": "e51dbc3e-0e73-46d5-91f1-5db0e8ddfa4f",
+      "id": 1
+    },
+    {
+      "name": "Nora Nordmann",
+      "number": "61 21 32 31 ",
+      "email": "myemail@mail.no",
+      "address": "I live here",
+      "city": "SOMEWHERE",
+      "country": "India",
+      "card": "435345345435",
+      "security": "111",
+      "expiration": "2025",
+      "products": [
+        {
+          "id": "1",
+          "sku": "7",
+          "quantity": 2,
+          "image": "pexels-ylanite-koppens-1445419.jpg",
+          "name": "Still",
+          "price": 94.95,
+          "alt": "two white pots"
+        },
+        {
+          "id": "4",
+          "sku": "49",
+          "quantity": 1,
+          "image": "pexels-dina-nasyrova-3832098.jpg",
+          "name": "Terracotta Rey",
+          "price": 135.95,
+          "alt": "one orange pots"
+        },
+        {
+          "id": "3",
+          "sku": "38",
+          "quantity": 1,
+          "image": "pexels-ylanite-koppens-776656.jpg",
+          "name": "LuUpes Highrise, 3",
+          "price": 145.95,
+          "alt": "three white pots"
+        }
+      ],
+      "buyerId": "55631bda-3bb9-4d0d-a44f-ad6a8688cd28",
+      "id": 2
+    },
+    {
+      "name": "Cathrine Hanssen",
+      "number": "+4748218431",
+      "email": "xlaminent@gmail.com",
+      "address": "Midteggen 25",
+      "city": "SAUPSTAD",
+      "country": "Norway",
+      "card": "54435345",
+      "security": "543",
+      "expiration": "3453",
+      "products": [
+        {
+          "id": "1",
+          "sku": "8",
+          "quantity": 5,
+          "image": "pexels-ylanite-koppens-1445419.jpg",
+          "name": "Still",
+          "price": 94.95,
+          "alt": "two white pots"
+        }
+      ],
+      "buyerId": "55631bda-3bb9-4d0d-a44f-ad6a8688cd28",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "testuser@testuser.com",
+      "password": "testerhei",
+      "token": "a3488f22-5451-49e3-a3ae-c59d8011ea0a",
+      "id": 1
+    }
+  ]
+}
