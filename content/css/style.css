@@ -534,7 +534,7 @@ img {
   border-bottom: 1px solid #aaa;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  width: 250px;
+  width: 220px;
   border-radius: 2px;
   padding: 10px 10px;
 }
@@ -590,15 +590,22 @@ img {
   text-align: right;
 }
 
+.header__top--user ul {
+  font-size: 18px;
+}
+
 .header__top--user ul li {
   display: inline-block;
   margin-left: 20px;
-  padding-bottom: 3px;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .header__top--user ul li span {
   vertical-align: bottom;
-  padding-bottom: 0;
+  font-size: 27px;
 }
 
 .header__top--user ul li:hover, .header__top--user ul li:hover span {
@@ -2218,8 +2225,8 @@ img {
 
 .cards__item__fav {
   position: absolute;
-  bottom: 52px;
-  right: 20px;
+  bottom: 40px;
+  right: 4px;
   color: #0B605E;
   font-size: 21px;
   cursor: context-menu;
@@ -2227,8 +2234,8 @@ img {
 
 .cards__item__tooltip {
   position: absolute;
-  bottom: 52px;
-  right: 20px;
+  bottom: 40px;
+  right: 4px;
 }
 
 .cards__item__tooltip:hover .cards__item__tooltip--text {
